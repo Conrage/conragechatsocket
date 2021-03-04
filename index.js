@@ -1,4 +1,4 @@
-const content = require('fs').readFileSync(__dirname + '/messageapp/src/App.vue', 'utf8');
+const content = require('fs').readFileSync(__dirname + '/index.html', 'utf8');
 
 const httpServer = require('http').createServer((req, res) => {
   res.setHeader('Content-Type', 'text/html');
