@@ -1,0 +1,29 @@
+{
+  "name": "messageapp",
+  "version": "1.0.0",
+  "description": "socketmessageapp",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^3.1.1",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Conrad-C/conragechatsocket.git"
+  },
+  "keywords": [
+    "smapp"
+  ],
+  "author": "Joao Conrad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Conrad-C/conragechatsocket/issues"
+  },
+  "homepage": "https://github.com/Conrad-C/conragechatsocket#readme"
+}
