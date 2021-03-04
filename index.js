@@ -19,6 +19,7 @@ io.on('connection', socket => {
       io.emit("message",data)
   })
 });
-httpServer.listen(3000, () => {
-  console.log('listening to 3000');
+const PORT = process.env.PORT || 3000;
+httpServer.listen(PORT, () => {
+  console.log('listening to '+PORT);
 });
