@@ -1,0 +1,10 @@
+.message-body{
+    background-color: rgb(243, 232, 255);
+    width: 80%;
+    height: 95%;
+    align-items: flex-end;
+}
+.input-holder{
+    height: 80px;
+    background-color: rgb(189, 167, 212);
+}
